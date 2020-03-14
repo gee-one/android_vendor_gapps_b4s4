@@ -31,9 +31,9 @@ PRODUCT_PACKAGES += \
     com.google.android.media.effects
 
 # Prebuilt privileged APKs
+#    CarrierSetup \ - this is excluded here since it is included with lineage bonito proprietary blobs
 PRODUCT_PACKAGES += \
     AndroidMigratePrebuilt \
-    CarrierSetup \
     ConfigUpdater \
     GmsCoreSetupPrebuilt \
     GoogleBackupTransport \

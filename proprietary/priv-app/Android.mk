@@ -27,16 +27,6 @@ LOCAL_PRODUCT_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CarrierSetup
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := CarrierSetup/CarrierSetup.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_PRODUCT_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := ConfigUpdater
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := ConfigUpdater/ConfigUpdater.apk
