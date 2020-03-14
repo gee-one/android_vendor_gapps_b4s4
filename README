@@ -1,0 +1,14 @@
+This is a "opengapps pico"-style gapps tree
+
+- no warranty, not fully tested
+- probably not what you are looking for
+- based on opengapps pico
+- adds pixel migration tool from stock rom to prevent crashy setup
+
+You can add this to your build by cloning this repo into vendor/gapps/b4s4
+and adding this line to your device tree somewhere
+
+$(call inherit-product-if-exists, vendor/gapps/b4s4/device-vendor.mk)
+
+
+todo: convert to bp makefile
